@@ -1,0 +1,12 @@
+rule,affected,unit
+rows read,8394487,rows
+kWh not a number -> treated as missing,2,rows
+negative or above physical limit -> missing,0,rows
+off-grid timestamps dropped,2,rows
+duplicate rows dropped,5735,rows
+empty slots after building the full grid,371250,slots
+short gaps (<= 2 half-hours) filled,857,slots
+all-zero days -> missing,1441,home-days
+incomplete days dropped,9296,home-days
+homes dropped (< 329 complete days),48,homes
+rows in the clean file,7902768,rows

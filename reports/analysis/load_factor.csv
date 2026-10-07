@@ -1,0 +1,4 @@
+tariff_group,median_avg_kw,median_peak_kw,median_load_factor
+All homes,0.35,3.94,0.091
+Std,0.34,3.8,0.093
+ToU,0.36,3.96,0.091

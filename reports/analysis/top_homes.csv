@@ -1,0 +1,6 @@
+rank,household_id,tariff_group,daily_kwh,times_median_home
+1,MAC003257,ToU,55.1,6.5
+2,MAC003979,Std,46.2,5.5
+3,MAC001004,ToU,40.9,4.9
+4,MAC005318,Std,40.3,4.8
+5,MAC004446,Std,37.9,4.5

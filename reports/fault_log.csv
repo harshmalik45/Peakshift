@@ -1,0 +1,4 @@
+rule,affected,unit
+fault days removed (6+ h zeros or frozen),1282,home-days
+homes dropped (< 329 days after removing faults),9,homes
+rows in the final file,7730496,rows

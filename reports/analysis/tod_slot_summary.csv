@@ -1,0 +1,4 @@
+tariff_group,median_solar_pct,median_peak_pct,median_normal_pct,pct_homes_peak_over_solar
+All homes,34.9,41.7,22.4,80.8
+Std,34.8,41.3,22.4,80.2
+ToU,34.9,42.1,22.3,81.4

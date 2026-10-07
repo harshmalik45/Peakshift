@@ -1,0 +1,15 @@
+check,count,percent,out_of
+kWh is not a number,2,0.0,"8,394,487 rows"
+kWh is negative,0,0.0,"8,394,487 rows"
+kWh above 11.5 (physical limit),0,0.0,"8,394,487 rows"
+kWh is exactly 0,128595,1.532,"8,394,487 rows"
+timestamp can't be read,0,0.0,"8,394,487 rows"
+timestamp not on :00 or :30,2,0.0,"8,394,487 rows"
+duplicate rows (extra copies),5735,0.068,"8,394,487 rows"
+duplicated times whose copies disagree,0,0.0,"8,394,487 rows"
+missing readings (total),371250,4.238,"8,760,000 expected readings"
+  ...before first or after last reading,365305,4.17,"8,760,000 expected readings"
+  ...in gaps of 1 hour or less,857,0.01,"8,760,000 expected readings"
+  ...in gaps longer than 1 hour,5088,0.058,"8,760,000 expected readings"
+homes below 90% coverage,36,7.2,500 homes
+days where every reading is 0,1441,0.824,"174,893 home-days"

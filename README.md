@@ -11,3 +11,34 @@ Source: [Low Carbon London smart-meter data](https://data.london.gov.uk/dataset/
 | `stdorToU` | `tariff_group` | `Std` = flat rate, `ToU` = dynamic time-of-use prices in 2013 | Std | text |
 | `DateTime` | `ts_text` | Half-hour of the reading | 2012-10-12 00:30:00.0000000 | text, 7 decimal places |
 | `KWH/hh (per half hour) ` | `kwh_text` | Energy used in that half-hour (kWh) | 0.347 | text with a leading space; the name ends in a space |
+
+## Data cleaning
+
+| Stage | Rows | Homes |
+|---|---|---|
+| Raw 2013 sample | 8,394,487 | 500 |
+| After rule-based cleaning | 7,902,768 | 452 |
+| After AI-assisted fault removal | 7,730,496 | 443 (222 flat-rate, 221 time-of-use) |
+
+- **Audit (SQL):** 4.2% of readings missing, 5,735 duplicate rows, 2 corrupt rows, 1,441 all-zero days.
+  The data is heavily skewed (median 0.116 kWh per half hour, max 8.285), so outliers are judged
+  against a physical limit (11.5 kWh per half hour = 100 A × 230 V), not IQR or z-scores.
+- **Rules (pandas):** removed duplicates, filled gaps of up to 1 hour by straight-line interpolation,
+  removed all-zero and incomplete days, and kept homes with at least 329 complete days.
+- **AI (Isolation Forest):** scored all 164,641 home-days against each home's usual day.
+  67% of its top-1% flags were confirmed meter faults; the rest were real but unusual days and were kept.
+  It ranked 86% of all fault days in its top 1%. A rule (6+ hours of zeros or a frozen reading) then
+  removed 1,282 fault days, 57% of them from just 5 meters.
+- Every remaining day has all 48 half-hourly readings, with no duplicates or missing values.
+
+## Findings: when homes use electricity
+
+![Daily load curve](reports/figures/daily_curve.png)
+
+- A typical home uses 8.4 kWh/day (3,081 kWh/yr), within 4% of Ofgem's 2013 "typical" UK home (3,200 kWh/yr).
+- The evening peak is 18:00–19:30 (0.64 kW per home), 2.9× the quietest half-hour.
+- Winter use is ~1.6× summer. March 2013 stayed high: it was the UK's coldest March in ~50 years.
+- Median load factor is 0.09: a home's peak is ~11× its average.
+- The heaviest 10% of homes use 25.5% of evening-peak electricity.
+
+![Who drives the evening peak](reports/figures/peak_drivers.png)

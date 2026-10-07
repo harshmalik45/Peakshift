@@ -1,0 +1,4 @@
+tariff_group,homes,median_daily_kwh,mean_daily_kwh,median_yearly_kwh
+All homes,443,8.44,10.13,3081.0
+Std,222,8.24,10.33,3006.0
+ToU,221,8.55,9.94,3121.0
