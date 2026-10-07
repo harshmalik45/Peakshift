@@ -1,0 +1,193 @@
+household_id,bill_change_pct,pays_more,tries,passed_first_try,used_fallback,note,facts
+MAC000584,0.741,True,1,True,False,"The household's electricity bill is expected to increase by +0.7% if their habits stay the same. This is because they use a significant amount of electricity during peak hours, which are 10% more expensive. They tend to use the most electricity between 06:00-09:00 and 17:00-22:00, with a particularly busy half-hour of 18:00-18:30. To minimize the impact of the new tariff, they could try to adjust their daily routine to shift their peak usage to the cheaper solar hours between 09:00-17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,124 kWh (0.4 times a typical home)
+- Share of use in peak hours: 56%
+- Share of use in solar hours: 24%
+- Busiest half-hour of the day: 18:00-18:30
+- Bill change if habits stay the same: +0.7%
+- Share of peak-hour use to move into solar hours to break even: 4.4%"
+MAC001905,0.04,True,1,True,False,"The household's electricity bill remains unchanged, as their usage habits haven't changed. They use electricity primarily during peak hours, which account for 50% of their total usage. To optimize their bill, they should consider shifting some of their peak-hour use to the solar hours period, which is 25% of their usage. By doing so, they can potentially break even on their bill and save on their electricity costs.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,880 kWh (0.6 times a typical home)
+- Share of use in peak hours: 50%
+- Share of use in solar hours: 25%
+- Busiest half-hour of the day: 19:00-19:30
+- Bill change if habits stay the same: +0.0%
+- Share of peak-hour use to move into solar hours to break even: 0.3%"
+MAC002052,0.739,True,1,True,False,"The household's electricity bill is expected to increase by +0.7% if their habits stay the same. This is because they use a significant amount of electricity during peak hours, which are 10% more expensive. To mitigate this, the household can consider shifting their usage to the cheaper solar hours, which are 20% cheaper. A practical tip is to try to avoid using electricity during the busiest half-hour of the day, 06:30-07:00, when it's 10% more expensive.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 864 kWh (0.3 times a typical home)
+- Share of use in peak hours: 59%
+- Share of use in solar hours: 26%
+- Busiest half-hour of the day: 06:30-07:00
+- Bill change if habits stay the same: +0.7%
+- Share of peak-hour use to move into solar hours to break even: 4.2%"
+MAC002241,0.539,True,1,True,False,"Our household uses a lot of electricity, which is 2.1 times the average. The new time-of-day tariff has changed how we pay for it. Since we use 55% of our electricity during peak hours, when it costs 10% more, we're paying more for that. To make the most of the new tariff, try to use less electricity during the busiest half-hour of the day, from 06:00-06:30, when it's the most expensive.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 6,367 kWh (2.1 times a typical home)
+- Share of use in peak hours: 55%
+- Share of use in solar hours: 25%
+- Busiest half-hour of the day: 06:00-06:30
+- Bill change if habits stay the same: +0.5%
+- Share of peak-hour use to move into solar hours to break even: 3.2%"
+MAC002324,0.326,True,1,True,False,"The household's electricity bill is expected to increase by +0.3% if their habits stay the same. This is because they use a significant amount of electricity during peak hours, which are 10% more expensive. To reduce their bill, they should try to shift their usage to the cheaper solar hours between 09:00 and 17:00, when 20% of their usage is already happening. One practical tip is to plan their evening activities, like cooking or watching TV, during the busiest half-hour of the day (18:30-19:00), when the cost is higher.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 11,279 kWh (3.7 times a typical home)
+- Share of use in peak hours: 58%
+- Share of use in solar hours: 27%
+- Busiest half-hour of the day: 18:30-19:00
+- Bill change if habits stay the same: +0.3%
+- Share of peak-hour use to move into solar hours to break even: 1.9%"
+MAC003049,0.191,True,1,True,False,"The household's electricity bill is expected to increase by +0.2% if their habits stay the same. This is because they use a significant amount of electricity during peak hours, which are 10% more expensive. They tend to use more electricity during the evening, with the busiest half-hour being 20:00-20:30, and also during the late afternoon. To make the most of the new tariff, they could try to adjust their daily routine to shift their usage into the cheaper solar hours, such as 09:00-17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,115 kWh (0.7 times a typical home)
+- Share of use in peak hours: 55%
+- Share of use in solar hours: 26%
+- Busiest half-hour of the day: 20:00-20:30
+- Bill change if habits stay the same: +0.2%
+- Share of peak-hour use to move into solar hours to break even: 1.2%"
+MAC003848,0.7401,True,1,True,False,"The household's electricity bill is expected to increase by +0.7% if their habits stay the same. This is because they use a significant amount of electricity, 47% of which falls into peak hours. To make the most of the new tariff, they should try to shift their usage into the solar hours period, when it's 20% cheaper. By doing so, they can potentially break even and even save money, as they would need to use 5.2% more electricity in peak hours to offset the cost difference.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 5,983 kWh (1.9 times a typical home)
+- Share of use in peak hours: 47%
+- Share of use in solar hours: 20%
+- Busiest half-hour of the day: 19:00-19:30
+- Bill change if habits stay the same: +0.7%
+- Share of peak-hour use to move into solar hours to break even: 5.2%"
+MAC004233,0.416,True,1,True,False,"Our household's electricity bill is expected to increase by 0.4% if habits stay the same. This is because we tend to use more electricity during peak hours, which are 10% dearer than other times. Specifically, we use 61% of our total electricity during peak hours, which fall between 06:00-09:00 and 17:00-22:00. To make the most of our solar hours, which are 20% cheaper, we should try to shift our usage to these times, and our busiest half-hour of the day, 07:00-07:30, is a good place to start.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,899 kWh (0.6 times a typical home)
+- Share of use in peak hours: 61%
+- Share of use in solar hours: 29%
+- Busiest half-hour of the day: 07:00-07:30
+- Bill change if habits stay the same: +0.4%
+- Share of peak-hour use to move into solar hours to break even: 2.3%"
+MAC004363,0.344,True,1,True,False,"Our household's electricity bill is expected to increase by 0.3% if habits stay the same. This is because we tend to use more electricity during peak hours, which are 06:00-09:00 and 17:00-22:00. To make the most of the new tariff, we should try to shift some of our use to the cheaper solar hours, which are 09:00-17:00. By doing so, we can potentially break even and avoid the price increase, especially if we can move 2.2% of our peak-hour use into the solar hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 3,009 kWh (1.0 times a typical home)
+- Share of use in peak hours: 52%
+- Share of use in solar hours: 24%
+- Busiest half-hour of the day: 19:30-20:00
+- Bill change if habits stay the same: +0.3%
+- Share of peak-hour use to move into solar hours to break even: 2.2%"
+MAC004655,0.255,True,1,True,False,"Our household's electricity bill is expected to increase by 0.3% if habits stay the same. This is because we tend to use the most electricity during peak hours, from 06:00-09:00 and 17:00-22:00, when the tariff is 10% more expensive. However, we can reduce our peak-hour usage to move into solar hours, which are 20% cheaper, and break even on the bill change. To make the most of the new tariff, we can try to adjust our daily routine to avoid using electricity during the busiest half-hour of the day, 08:30-09:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,236 kWh (0.4 times a typical home)
+- Share of use in peak hours: 56%
+- Share of use in solar hours: 27%
+- Busiest half-hour of the day: 08:30-09:00
+- Bill change if habits stay the same: +0.3%
+- Share of peak-hour use to move into solar hours to break even: 1.5%"
+MAC004710,0.586,True,1,True,False,"Our household's electricity bill is expected to increase by 0.6% if habits stay the same. This is because we tend to use more electricity during peak hours, which are 10% dearer than other times. Specifically, we use 55% of our total electricity during peak hours, which fall between 06:00-09:00 and 17:00-22:00. To minimize the impact of the tariff change, we can try to shift our usage to solar hours, which are 20% cheaper, by adjusting our daily routines to avoid the busiest half-hour of the day, 20:30-21:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 3,643 kWh (1.2 times a typical home)
+- Share of use in peak hours: 55%
+- Share of use in solar hours: 25%
+- Busiest half-hour of the day: 20:30-21:00
+- Bill change if habits stay the same: +0.6%
+- Share of peak-hour use to move into solar hours to break even: 3.6%"
+MAC005176,0.103,True,1,True,False,"The household's electricity bill is expected to increase by +0.1% if their habits stay the same. This is because they use a significant amount of electricity during peak hours, which are 10% more expensive. They tend to use the most electricity between 19:00-19:30, and also use a substantial amount of power during the morning and early evening. To minimize the impact of the tariff change, the household could try to adjust their daily routine to avoid using electricity during the peak hours, especially between 06:00-09:00 and 17:00-22:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,177 kWh (0.4 times a typical home)
+- Share of use in peak hours: 55%
+- Share of use in solar hours: 27%
+- Busiest half-hour of the day: 19:00-19:30
+- Bill change if habits stay the same: +0.1%
+- Share of peak-hour use to move into solar hours to break even: 0.6%"
+MAC005482,-1.036,False,1,True,False,"The household's electricity bill is expected to decrease by 1.0% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. Specifically, their busiest half-hour of the day, 20:30-21:00, accounts for a significant portion of their usage. To make the most of the new tariff, the household can try to adjust their daily routine to avoid using electricity during the most expensive peak hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 3,149 kWh (1.0 times a typical home)
+- Share of use in peak hours: 50%
+- Share of use in solar hours: 30%
+- Busiest half-hour of the day: 20:30-21:00
+- Bill change if habits stay the same: -1.0%"
+MAC000877,-2.2168,False,1,True,False,"The household's electricity bill is expected to decrease by 2.2% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. The busiest half-hour of the day, 21:00-21:30, accounts for 39% of their total usage, highlighting the importance of adjusting their daily routine to avoid this peak period. To make the most of the new tariff, they can consider shifting their evening activities to the cheaper solar hours between 09:00 and 17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,265 kWh (0.7 times a typical home)
+- Share of use in peak hours: 39%
+- Share of use in solar hours: 31%
+- Busiest half-hour of the day: 21:00-21:30
+- Bill change if habits stay the same: -2.2%"
+MAC003728,-4.54,False,1,True,False,"The household's electricity bill is expected to decrease by 4.5% if their habits stay the same. This is because they use electricity during the peak hours of 06:00-09:00 and 17:00-22:00, which are 10% more expensive. However, they also use a significant amount of electricity during the solar hours of 09:00-17:00, which are 20% cheaper. To make the most of the new tariff, the household should try to shift their usage to the solar hours when possible, such as by using energy-efficient appliances during the day.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 5,917 kWh (1.9 times a typical home)
+- Share of use in peak hours: 32%
+- Share of use in solar hours: 39%
+- Busiest half-hour of the day: 16:30-17:00
+- Bill change if habits stay the same: -4.5%"
+MAC000345,-2.5853,False,1,True,False,"The household's electricity bill is expected to decrease by 2.6% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. Specifically, their usage peaks between 22:00-22:30, when the tariff is 10% dearer. To make the most of their solar hours tariff, they could try to adjust their daily routine to use more electricity during the cheaper hours, from 09:00-17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 3,523 kWh (1.1 times a typical home)
+- Share of use in peak hours: 38%
+- Share of use in solar hours: 32%
+- Busiest half-hour of the day: 22:00-22:30
+- Bill change if habits stay the same: -2.6%"
+MAC004686,-1.814,False,1,True,False,"The household's electricity bill is expected to decrease by 1.8% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. Specifically, their busiest half-hour of the day is 18:30-19:00, and they use electricity for 43% of this period, making it the most expensive part of their daily usage. To make the most of their solar hours, they should try to shift their evening activities to the cheaper time slots between 09:00 and 17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,168 kWh (0.7 times a typical home)
+- Share of use in peak hours: 43%
+- Share of use in solar hours: 31%
+- Busiest half-hour of the day: 18:30-19:00
+- Bill change if habits stay the same: -1.8%"
+MAC003471,-2.1968,False,1,True,False,"The household's electricity bill is expected to decrease by 2.2% if their habits stay the same. This is because they use electricity mostly during peak hours, which are 10% more expensive. The household uses electricity for 42% of the day during peak hours, and 32% during the cheaper solar hours. To make the most of their solar hours, they can try to do their most energy-intensive tasks, like washing machines and dishwashers, during the cheaper periods between 09:00 and 17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 3,948 kWh (1.3 times a typical home)
+- Share of use in peak hours: 42%
+- Share of use in solar hours: 32%
+- Busiest half-hour of the day: 18:00-18:30
+- Bill change if habits stay the same: -2.2%"
+MAC001945,-3.1693,False,1,True,False,"The household's electricity bill is expected to decrease by 3.2% if their habits stay the same. This is because they use electricity mostly during peak hours, which are 10% more expensive. The busiest half-hour of the day, 17:30-18:00, accounts for 48% of their total usage, contributing to the increased cost. To make the most of the new tariff, consider shifting some of their daily activities to the cheaper solar hours between 09:00 and 17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,306 kWh (0.4 times a typical home)
+- Share of use in peak hours: 48%
+- Share of use in solar hours: 40%
+- Busiest half-hour of the day: 17:30-18:00
+- Bill change if habits stay the same: -3.2%"
+MAC001897,-5.4295,False,1,True,False,"The household's electricity bill is expected to decrease by 5.4% if their habits stay the same. This is because they use electricity mainly during the solar hours, when the tariff is 20% cheaper, and to a lesser extent during the peak hours. Their usage during the busiest half-hour of the day, 17:30-18:00, accounts for 41% of their total usage, but this is still less than the peak hours. To make the most of the new tariff, the household can try to adjust their daily routine to avoid using electricity during the peak hours of 06:00-09:00 and 17:00-22:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,865 kWh (0.9 times a typical home)
+- Share of use in peak hours: 41%
+- Share of use in solar hours: 48%
+- Busiest half-hour of the day: 17:30-18:00
+- Bill change if habits stay the same: -5.4%"
+MAC002147,-1.0479,False,1,True,False,"The household's electricity bill is expected to decrease by 1.0% if their habits stay the same. This is because they use electricity primarily during peak hours, which are 10% more expensive. Specifically, their usage during the busiest half-hour of the day, 21:00-21:30, is significantly higher. To make the most of the new tariff, the household could try to adjust their daily routine to shift their usage to the cheaper solar hours between 09:00 and 17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 713 kWh (0.2 times a typical home)
+- Share of use in peak hours: 51%
+- Share of use in solar hours: 31%
+- Busiest half-hour of the day: 21:00-21:30
+- Bill change if habits stay the same: -1.0%"
+MAC002221,-0.8801,False,1,True,False,"The household's electricity bill is expected to decrease by 0.9% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. Specifically, their usage during the busiest half-hour of the day, 18:00-18:30, is particularly costly. To minimize the impact of the tariff change, the household could consider adjusting their daily routine to avoid this peak hour, such as doing laundry or cooking during the cheaper solar hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,424 kWh (0.8 times a typical home)
+- Share of use in peak hours: 48%
+- Share of use in solar hours: 29%
+- Busiest half-hour of the day: 18:00-18:30
+- Bill change if habits stay the same: -0.9%"
+MAC005337,-0.104,False,1,True,False,"The household's electricity bill is expected to decrease by 0.1% if their habits stay the same. This is because they use electricity primarily during the solar hours, which are 20% cheaper, and only 15% of their total usage falls into peak hours, where the tariff is 10% higher. To make the most of the new tariff, the household should try to avoid using electricity during the peak hours of 06:00-09:00 and 17:00-22:00. One practical tip is to adjust their evening routine to avoid using electricity between 23:30-24:00, when it is their busiest half-hour of the day.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 3,228 kWh (1.0 times a typical home)
+- Share of use in peak hours: 15%
+- Share of use in solar hours: 8%
+- Busiest half-hour of the day: 23:30-24:00
+- Bill change if habits stay the same: -0.1%"
+MAC000841,-2.676,False,1,True,False,"The household's electricity bill is expected to decrease by 2.7% if their habits stay the same. This is because they use electricity mostly during peak hours, which are 10% more expensive. The busiest half-hour of the day, 18:30-19:00, accounts for a significant portion of their usage, making it a good target for adjustments. To make the most of the new tariff, consider shifting non-essential activities to the solar hours between 09:00 and 17:00 when electricity is cheaper.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,560 kWh (0.8 times a typical home)
+- Share of use in peak hours: 40%
+- Share of use in solar hours: 33%
+- Busiest half-hour of the day: 18:30-19:00
+- Bill change if habits stay the same: -2.7%"
+MAC002646,-2.329,False,1,True,False,"The household's electricity bill is expected to decrease by 2.3% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 06:00-09:00 and 17:00-22:00, and they also use a significant amount of electricity during the busiest half-hour of the day, 07:30-08:00. To make the most of the new tariff, they should try to adjust their daily routine to avoid using electricity during these peak hours. For example, they could try to do their most energy-intensive tasks during the cheaper solar hours of 09:00-17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,332 kWh (0.8 times a typical home)
+- Share of use in peak hours: 46%
+- Share of use in solar hours: 35%
+- Busiest half-hour of the day: 07:30-08:00
+- Bill change if habits stay the same: -2.3%"
+MAC004314,-1.371,False,1,True,False,"The household's electricity bill is expected to decrease by 1.4% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. The busiest half-hour of the day, 19:00-19:30, accounts for a significant portion of their usage, making it a good target for adjusting their daily routine to save energy. To make the most of the new tariff, they could try to avoid using electricity during this period, such as by using energy-efficient appliances or adjusting their schedule to use them during the cheaper solar hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,593 kWh (0.8 times a typical home)
+- Share of use in peak hours: 46%
+- Share of use in solar hours: 30%
+- Busiest half-hour of the day: 19:00-19:30
+- Bill change if habits stay the same: -1.4%"
+MAC000475,-2.784,False,1,True,False,"The household's electricity bill is expected to decrease by 2.8% if their habits stay the same. This is because they use electricity mostly during peak hours, which are 10% more expensive. The household uses electricity for 41% of the day during peak hours, and 35% during the cheaper solar hours. To make the most of their solar hours, they can try to shift their evening activities to the cheaper periods, such as 09:00-17:00, to save even more on their bill.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 9,130 kWh (3.0 times a typical home)
+- Share of use in peak hours: 41%
+- Share of use in solar hours: 35%
+- Busiest half-hour of the day: 18:30-19:00
+- Bill change if habits stay the same: -2.8%"
+MAC001785,-4.528,False,1,True,False,"The household's electricity bill is expected to decrease by 4.5% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. Specifically, their busiest half-hour of the day is from 16:30-17:00, when the tariff is 10% dearer. To make the most of the solar hours tariff, they should try to shift their usage to these hours, such as by doing laundry or ironing during the day.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 2,765 kWh (0.9 times a typical home)
+- Share of use in peak hours: 40%
+- Share of use in solar hours: 43%
+- Busiest half-hour of the day: 16:30-17:00
+- Bill change if habits stay the same: -4.5%"
+MAC003391,-1.029,False,1,True,False,"The household's electricity bill is expected to decrease by 1.0% if their habits stay the same. This is because they use electricity mainly during peak hours, which are 10% more expensive. Specifically, their busiest half-hour of the day is from 20:00-20:30, when they use 51% of their total electricity. To make the most of the new tariff, they can try to adjust their usage during the 20:00-20:30 time slot to avoid the higher cost.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 4,471 kWh (1.5 times a typical home)
+- Share of use in peak hours: 51%
+- Share of use in solar hours: 30%
+- Busiest half-hour of the day: 20:00-20:30
+- Bill change if habits stay the same: -1.0%"
+MAC000859,-3.798,False,1,True,False,"The household's electricity bill is expected to decrease by 3.8% if their habits stay the same. This is because they use electricity mostly during peak hours, which are 10% more expensive. Specifically, their busiest half-hour of the day is from 08:30-09:00, and they use 42% of their total electricity during this period. To make the most of the new tariff, the household should try to shift their usage to the cheaper solar hours between 09:00-17:00.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer
+- Yearly use: 1,647 kWh (0.5 times a typical home)
+- Share of use in peak hours: 42%
+- Share of use in solar hours: 40%
+- Busiest half-hour of the day: 08:30-09:00
+- Bill change if habits stay the same: -3.8%"
