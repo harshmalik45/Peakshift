@@ -57,3 +57,12 @@ Where does the 30% in the break-even calculation come from?
 If 97% of homes pay less, who pays? Give two ways to make the tariff revenue-neutral.
 How did you turn Step 8's result into a prediction for J&K, and what does that assume?
 Once homes respond to prices, the median bill falls less. Why?
+
+step 10
+
+Why does code compute every number, and even the reason, instead of the LLM?
+Walk me through your two checks. What does each catch, and what can neither catch?
+v1 passed all 30 checks, but one note was wrong. What was wrong, and how did you find it?
+Check 2 never fired in v2. Was it pointless?
+Why run a local model with Ollama instead of calling an API? What do you give up?
+A note takes 13 seconds. How would you write notes for 10 lakh consumers?

@@ -63,3 +63,24 @@ Source: [Low Carbon London smart-meter data](https://data.london.gov.uk/dataset/
 - Utility revenue falls 2.8%. Revenue-neutral alternatives: +2.9% on all rates, or a 16.7% peak surcharge instead of 10%.
 - With the trial's measured elasticity, peak-hour use falls only 0.3%: the tariff changes bills, not behaviour.
 - Caveat: London load shapes (heating, little AC). The method transfers to India; the numbers don't.
+
+
+## AI bill notes: a local LLM with two fact checks
+
+Each home gets a short note on what the tariff means for it. Code computes every number, including *why*
+the bill changes (the solar-hour saving and the peak-hour extra cost). A local LLM (Llama 3.2 3B via Ollama)
+only writes the words. Two automatic checks guard every note:
+
+1. **No invented numbers:** every number in the note must appear in the facts.
+2. **No missing facts:** the note must include the bill change, the saving and the extra cost
+   (plus the break-even shift for homes that pay more).
+
+A failing draft goes back to the model with the problem listed (up to 3 tries), then a plain template is used.
+
+| Version | Passed first try | After feedback | Template | Final notes failing a check |
+|---|---|---|---|---|
+| v1: number check only | 30/30 | 0 | 0 | 0 |
+| v2: reason in the facts + coverage check | 28/30 | 2 | 0 | 0 |
+
+v1 passed every check, yet one note said a bill falls "because they use electricity mainly during peak
+hours", which is backwards. A number check can't see reasoning, so v2 moved the reasoning into code.

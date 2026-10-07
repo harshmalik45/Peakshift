@@ -1,0 +1,288 @@
+household_id,bill_change_pct,pays_more,tries,first_draft_invented,first_draft_missing,passed_first_try,used_fallback,note,facts,must_include
+MAC000584,0.741,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.7% under our new time-of-day tariff. This is because the solar-hour discount saves 4.9% of your bill, but the peak-hour surcharge adds 5.6%.
+
+The reason for this change is that you use 24% of your electricity in solar hours, which are now 20% cheaper, and 56% in peak hours, which are 10% more expensive. Your busiest half-hour, 18:00-18:30, falls within peak hours.
+
+To break even, you can reduce your peak-hour use by 4.4%. One simple way to do this is to adjust your evening routine to avoid the 18:00-18:30 peak hour. Try to finish any tasks or activities that require electricity during this time, and see how it affects your bill.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.7%
+- Why: the solar-hour discount saves 4.9% of your bill (you use 24% of your electricity in solar hours); the peak-hour surcharge adds 5.6% (you use 56% in peak hours)
+- Your busiest half-hour: 18:00-18:30, in peak hours
+- To break even: move 4.4% of your peak-hour use into solar hours","[0.7, 4.9, 5.6, 4.4]"
+MAC001905,0.04,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill has remained the same, with no change from your previous bill. This is because the savings from using solar hours during the day have offset the increased cost of using electricity during peak hours.
+
+The reason for this balance is that the solar-hour discount saves 4.9% of your bill, while the peak-hour surcharge adds 5.0%. Your usage patterns have resulted in a specific split of usage between these two periods.
+
+One way to take advantage of this tariff is to adjust your daily routine. For example, try to move your evening activities, such as watching TV or using the computer, into the solar hours (17:00-22:00) to reduce your peak-hour usage.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.0%
+- Why: the solar-hour discount saves 4.9% of your bill (you use 25% of your electricity in solar hours); the peak-hour surcharge adds 5.0% (you use 50% in peak hours)
+- Your busiest half-hour: 19:00-19:30, in peak hours
+- To break even: move 0.3% of your peak-hour use into solar hours","[0.0, 4.9, 5.0, 0.3]"
+MAC002052,0.739,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.7% under our new time-of-day tariff. This is because the solar-hour discount saves 5.1% of your bill, but the peak-hour surcharge adds 5.9%. 
+
+To put this into perspective, you use 26% of your electricity during solar hours and 59% during peak hours. If you can shift some of your peak-hour use to solar hours, you can break even on the tariff change. To do this, you'll need to move 4.2% of your peak-hour use into solar hours. 
+
+Consider adjusting your daily routine to move your most intense usage to solar hours. For example, try to do your most energy-intensive activities, like laundry or cooking, during the solar hours when it's cheaper.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.7%
+- Why: the solar-hour discount saves 5.1% of your bill (you use 26% of your electricity in solar hours); the peak-hour surcharge adds 5.9% (you use 59% in peak hours)
+- Your busiest half-hour: 06:30-07:00, in peak hours
+- To break even: move 4.2% of your peak-hour use into solar hours","[0.7, 5.1, 5.9, 4.2]"
+MAC002241,0.539,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.5% under our new time-of-day tariff. This is because the solar-hour discount, which saves 5.0% of your bill, is offset by the peak-hour surcharge, which adds 5.5% to your bill.
+
+The reason for this change is that you use 25% of your electricity in solar hours, which are now 20% cheaper, and 55% in peak hours, which are now 10% dearer. Your busiest half-hour is 06:00-06:30, which falls within the peak hours.
+
+To minimize the impact of the new tariff, consider moving 3.2% of your peak-hour use into solar hours. This will help you break even and avoid the extra cost.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.5%
+- Why: the solar-hour discount saves 5.0% of your bill (you use 25% of your electricity in solar hours); the peak-hour surcharge adds 5.5% (you use 55% in peak hours)
+- Your busiest half-hour: 06:00-06:30, in peak hours
+- To break even: move 3.2% of your peak-hour use into solar hours","[0.5, 5.0, 5.5, 3.2]"
+MAC002324,0.326,True,2,True,False,False,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.3% under our new time-of-day tariff. This is because the solar-hour discount saves 5.5% of your bill, but the peak-hour surcharge adds 5.8%. 
+
+To put this into perspective, you use 58% of your electricity during peak hours, which cost 10% more than other hours. On the other hand, you use 27% of your electricity during solar hours, which are 20% cheaper. 
+
+To break even, consider moving 1.9% of your peak-hour use into solar hours. This could help you offset the increased cost of peak hours and reduce your overall bill.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.3%
+- Why: the solar-hour discount saves 5.5% of your bill (you use 27% of your electricity in solar hours); the peak-hour surcharge adds 5.8% (you use 58% in peak hours)
+- Your busiest half-hour: 18:30-19:00, in peak hours
+- To break even: move 1.9% of your peak-hour use into solar hours","[0.3, 5.5, 5.8, 1.9]"
+MAC003049,0.191,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.2% under our new time-of-day tariff. This is because the solar-hour discount saves 5.3% of your bill, but the peak-hour surcharge adds 5.5%.
+
+The reason for this is that you use 26% of your electricity in solar hours, where it costs 20% less, and 55% in peak hours, where it costs 10% more. Your busiest half-hour is 20:00-20:30, which falls within the peak hours.
+
+To break even, you can reduce your peak-hour use by 1.2% by shifting some of your electricity usage to solar hours. For example, try to do your laundry or washing machine during the day when it's cheaper.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.2%
+- Why: the solar-hour discount saves 5.3% of your bill (you use 26% of your electricity in solar hours); the peak-hour surcharge adds 5.5% (you use 55% in peak hours)
+- Your busiest half-hour: 20:00-20:30, in peak hours
+- To break even: move 1.2% of your peak-hour use into solar hours","[0.2, 5.3, 5.5, 1.2]"
+MAC003848,0.7401,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.7% under our new time-of-day tariff. This is because the solar-hour discount saves 4.0% of your bill, but the peak-hour surcharge adds 4.7%.
+
+The reason for this is that you use 20% of your electricity in solar hours, which saves 4.0%, but you also use 47% of your electricity in peak hours, which costs 4.7% more. Your busiest half-hour is 19:00-19:30, which falls within peak hours.
+
+To break even on the new tariff, consider shifting 5.2% of your peak-hour use into solar hours. This could help you avoid some of the extra cost and make the most of the solar-hour discount.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.7%
+- Why: the solar-hour discount saves 4.0% of your bill (you use 20% of your electricity in solar hours); the peak-hour surcharge adds 4.7% (you use 47% in peak hours)
+- Your busiest half-hour: 19:00-19:30, in peak hours
+- To break even: move 5.2% of your peak-hour use into solar hours","[0.7, 4.0, 4.7, 5.2]"
+MAC004233,0.416,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.4% under our new time-of-day tariff. This is because the solar-hour discount saves 5.7% of your bill, but the peak-hour surcharge adds 6.1%.
+
+The reason for this change is that you use 29% of your electricity during solar hours, which are now 20% cheaper, and 61% during peak hours, which are 10% dearer. Your busiest half-hour is 07:00-07:30, which falls within the peak hours.
+
+To break even, you can reduce your peak-hour use by moving 2.3% of your peak-hour use into solar hours. Consider adjusting your daily routine to shift some of your peak-hour usage to the cheaper solar hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.4%
+- Why: the solar-hour discount saves 5.7% of your bill (you use 29% of your electricity in solar hours); the peak-hour surcharge adds 6.1% (you use 61% in peak hours)
+- Your busiest half-hour: 07:00-07:30, in peak hours
+- To break even: move 2.3% of your peak-hour use into solar hours","[0.4, 5.7, 6.1, 2.3]"
+MAC004363,0.344,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.3% under our new time-of-day tariff. This is because the solar-hour discount saves 4.9% of your bill, but the peak-hour surcharge adds 5.2%.
+
+The reason for this change is that you use 24% of your electricity during solar hours, which are now 20% cheaper, and 52% during peak hours, which are 10% more expensive. Your busiest half-hour, 19:30-20:00, falls within peak hours.
+
+To break even, consider moving 2.2% of your peak-hour use into solar hours. This could be as simple as adjusting your evening routine to use less energy during peak hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.3%
+- Why: the solar-hour discount saves 4.9% of your bill (you use 24% of your electricity in solar hours); the peak-hour surcharge adds 5.2% (you use 52% in peak hours)
+- Your busiest half-hour: 19:30-20:00, in peak hours
+- To break even: move 2.2% of your peak-hour use into solar hours","[0.3, 4.9, 5.2, 2.2]"
+MAC004655,0.255,True,2,True,False,False,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.3% under our new time-of-day tariff. This is because the solar-hour discount saves 5.4% of your bill, but the peak-hour surcharge adds 5.6%. 
+
+To put this into perspective, you use 27% of your electricity in solar hours and 56% in peak hours. Our new tariff means that the hours between 09:00 and 17:00 are 20% cheaper, while the hours between 06:00 and 09:00 and 17:00 and 22:00 are 10% more expensive.
+
+One simple way to mitigate the rise in your bill is to adjust your usage to break even. To do this, try to move 1.5% of your peak-hour use into solar hours. For example, if you normally use a certain amount of electricity between 08:30 and 09:00, try to reduce this amount slightly. This small adjustment can help offset the increased cost of peak hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.3%
+- Why: the solar-hour discount saves 5.4% of your bill (you use 27% of your electricity in solar hours); the peak-hour surcharge adds 5.6% (you use 56% in peak hours)
+- Your busiest half-hour: 08:30-09:00, in peak hours
+- To break even: move 1.5% of your peak-hour use into solar hours","[0.3, 5.4, 5.6, 1.5]"
+MAC004710,0.586,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.6% under our new time-of-day tariff. This is because the solar-hour discount saves 4.9% of your bill, but the peak-hour surcharge adds 5.5%.
+
+The reason for this change is that you use 25% of your electricity during solar hours, which are now 20% cheaper, and 55% of your electricity during peak hours, which are now 10% dearer. Your busiest half-hour is 20:30-21:00, which falls within the peak hours.
+
+To help manage your bill, consider shifting some of your peak-hour use to solar hours. To break even, you'll need to move 3.6% of your peak-hour use into solar hours. Try to adjust your daily routine to make this shift, and see how it affects your bill.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.6%
+- Why: the solar-hour discount saves 4.9% of your bill (you use 25% of your electricity in solar hours); the peak-hour surcharge adds 5.5% (you use 55% in peak hours)
+- Your busiest half-hour: 20:30-21:00, in peak hours
+- To break even: move 3.6% of your peak-hour use into solar hours","[0.6, 4.9, 5.5, 3.6]"
+MAC005176,0.103,True,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to rise by 0.1% under our new time-of-day tariff. This is because the solar-hour discount saves 5.4% of your bill, but the peak-hour surcharge adds 5.5%.
+
+The reason for this is that you use 27% of your electricity in solar hours, where it costs 20% less, and 55% in peak hours, where it costs 10% more. Your busiest half-hour is 19:00-19:30, which falls within the peak hours.
+
+To break even, you can reduce your peak-hour use by 0.6%. Try to adjust your daily routine to shift some of your evening activities into the solar hours, such as 09:00-17:00, when it's cheaper.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: rises by 0.1%
+- Why: the solar-hour discount saves 5.4% of your bill (you use 27% of your electricity in solar hours); the peak-hour surcharge adds 5.5% (you use 55% in peak hours)
+- Your busiest half-hour: 19:00-19:30, in peak hours
+- To break even: move 0.6% of your peak-hour use into solar hours","[0.1, 5.4, 5.5, 0.6]"
+MAC005482,-1.036,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to fall by 1.0% under our new time-of-day tariff. This is because the solar-hour discount will save you 6.1% of your bill, while the peak-hour surcharge will add 5.0%. This change is due to your usage habits, where you use 30% of your electricity during solar hours and 50% during peak hours. To make the most of the new tariff, try to adjust your daily routine to avoid the 20:30-21:00 peak hour period.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 1.0%
+- Why: the solar-hour discount saves 6.1% of your bill (you use 30% of your electricity in solar hours); the peak-hour surcharge adds 5.0% (you use 50% in peak hours)
+- Your busiest half-hour: 20:30-21:00, in peak hours","[1.0, 6.1, 5.0]"
+MAC000877,-2.2168,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 2.2% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours from 09:00 to 17:00, which saves you 6.2% of your bill, and the 10% surcharge on peak hours from 06:00 to 09:00 and 17:00 to 22:00, which adds 3.9% to your bill.
+
+To make the most of the new tariff, try to adjust your usage to avoid the peak hours of 21:00-21:30, when you tend to use the most electricity.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 2.2%
+- Why: the solar-hour discount saves 6.2% of your bill (you use 31% of your electricity in solar hours); the peak-hour surcharge adds 3.9% (you use 39% in peak hours)
+- Your busiest half-hour: 21:00-21:30, in peak hours","[2.2, 6.2, 3.9]"
+MAC003728,-4.54,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 4.5% lower under our new time-of-day tariff. This reduction is mainly due to the savings from using solar hours at a lower rate, which accounts for 7.8% of your bill. On the other hand, the peak-hour surcharge adds 3.2% to your bill. To make the most of the solar-hour discount, try to avoid using electricity during peak hours, especially between 16:30 and 17:00, when you tend to use the most energy.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 4.5%
+- Why: the solar-hour discount saves 7.8% of your bill (you use 39% of your electricity in solar hours); the peak-hour surcharge adds 3.2% (you use 32% in peak hours)
+- Your busiest half-hour: 16:30-17:00, in solar hours","[4.5, 7.8, 3.2]"
+MAC000345,-2.5853,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 2.6% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours from 09:00 to 17:00, which saves you 6.4% of your bill, and the 10% surcharge on peak hours from 06:00 to 09:00 and 17:00 to 22:00, which adds 3.8% to your bill.
+
+To make the most of the new tariff, try to avoid using electricity during your busiest half-hour, which is 22:00-22:30, and shift your usage to the cheaper solar hours instead.
+
+Best regards,
+[Your Name]","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 2.6%
+- Why: the solar-hour discount saves 6.4% of your bill (you use 32% of your electricity in solar hours); the peak-hour surcharge adds 3.8% (you use 38% in peak hours)
+- Your busiest half-hour: 22:00-22:30, in normal hours","[2.6, 6.4, 3.8]"
+MAC004686,-1.814,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to fall by 1.8% under our new time-of-day tariff. This is because you use 31% of your electricity during our discounted solar hours, which will save you 6.1% on your bill. However, you also use 43% of your electricity during our peak hours, which will add 4.3% to your bill. To make the most of the discount, try to shift some of your evening activities, like watching TV or using the oven, to the morning or afternoon when the rates are lower.
+
+Best regards,
+[Your Name]","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 1.8%
+- Why: the solar-hour discount saves 6.1% of your bill (you use 31% of your electricity in solar hours); the peak-hour surcharge adds 4.3% (you use 43% in peak hours)
+- Your busiest half-hour: 18:30-19:00, in peak hours","[1.8, 6.1, 4.3]"
+MAC003471,-2.1968,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 2.2% lower under our new time-of-day tariff. This reduction is mainly due to the savings from the solar-hour discount, which will save you 6.4% of your bill, and the lower cost of electricity during non-peak hours, which will add 4.2% to your bill.
+
+The biggest saving comes from the fact that you use 32% of your electricity during the 20% cheaper solar hours, and 42% of your electricity during the 10% dearer peak hours. 
+
+One practical tip to make the most of the new tariff is to try to avoid using electricity during your busiest half-hour, which is 18:00-18:30, when it's in peak hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 2.2%
+- Why: the solar-hour discount saves 6.4% of your bill (you use 32% of your electricity in solar hours); the peak-hour surcharge adds 4.2% (you use 42% in peak hours)
+- Your busiest half-hour: 18:00-18:30, in peak hours","[2.2, 6.4, 4.2]"
+MAC001945,-3.1693,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 3.2% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours from 09:00 to 17:00, which saves you 7.9% of your bill. However, the peak-hour surcharge on hours from 06:00 to 09:00 and 17:00 to 22:00 adds 4.8% to your bill. To make the most of the discount, try to avoid using electricity during your busiest half-hour, 17:30-18:00, when it's in peak hours.
+
+Best regards,
+[Your Company]","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 3.2%
+- Why: the solar-hour discount saves 7.9% of your bill (you use 40% of your electricity in solar hours); the peak-hour surcharge adds 4.8% (you use 48% in peak hours)
+- Your busiest half-hour: 17:30-18:00, in peak hours","[3.2, 7.9, 4.8]"
+MAC001897,-5.4295,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 5.4% lower under our new time-of-day tariff. This reduction is mainly due to the savings from the solar-hour discount, which saves 9.5% of your bill, and the offsetting increase from the peak-hour surcharge, which adds 4.1%.
+
+The main reason for the decrease is that you use 48% of your electricity during the solar hours when it's 20% cheaper, resulting in a 9.5% reduction. On the other hand, you use 41% of your electricity during peak hours when it's 10% more expensive, adding 4.1% to your bill.
+
+To make the most of your new tariff, try to avoid using electricity during your busiest half-hour, 17:30-18:00, when it's in peak hours.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 5.4%
+- Why: the solar-hour discount saves 9.5% of your bill (you use 48% of your electricity in solar hours); the peak-hour surcharge adds 4.1% (you use 41% in peak hours)
+- Your busiest half-hour: 17:30-18:00, in peak hours","[5.4, 9.5, 4.1]"
+MAC002147,-1.0479,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to fall by 1.0% under our new time-of-day tariff. This is because the solar-hour discount will save you 6.2% of your bill, while the peak-hour surcharge will add 5.1%. This change is due to your electricity usage patterns, with 31% of your electricity being used during solar hours and 51% during peak hours. 
+
+One practical tip to make the most of the new tariff is to adjust your evening routine to avoid the peak hours between 21:00 and 21:30, when your usage is at its highest.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 1.0%
+- Why: the solar-hour discount saves 6.2% of your bill (you use 31% of your electricity in solar hours); the peak-hour surcharge adds 5.1% (you use 51% in peak hours)
+- Your busiest half-hour: 21:00-21:30, in peak hours","[1.0, 6.2, 5.1]"
+MAC002221,-0.8801,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to fall by 0.9% under our new time-of-day tariff. This is because you use 29% of your electricity during our discounted solar hours, which will save you 5.7% on your bill. However, you also use 48% of your electricity during our peak hours, which will add 4.8% to your bill. To make the most of the discount, try to adjust your schedule to avoid the 18:00-18:30 peak hour period when possible.
+
+Best regards,
+[Your Name]","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 0.9%
+- Why: the solar-hour discount saves 5.7% of your bill (you use 29% of your electricity in solar hours); the peak-hour surcharge adds 4.8% (you use 48% in peak hours)
+- Your busiest half-hour: 18:00-18:30, in peak hours","[0.9, 5.7, 4.8]"
+MAC005337,-0.104,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill will fall by 0.1% under our new time-of-day tariff. This is because the solar-hour discount saves 1.6% of your bill, and the peak-hour surcharge adds 1.5%. This means that the overall change is a reduction of 0.1% from your current bill.
+
+The solar-hour discount saves 1.6% of your bill because you use 8% of your electricity in solar hours, and the peak-hour surcharge adds 1.5% because you use 15% of your electricity in peak hours.
+
+One practical tip is to try to shift some of your evening activities, such as watching TV or using the computer, to the morning or early afternoon when the tariff is cheaper.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 0.1%
+- Why: the solar-hour discount saves 1.6% of your bill (you use 8% of your electricity in solar hours); the peak-hour surcharge adds 1.5% (you use 15% in peak hours)
+- Your busiest half-hour: 23:30-24:00, in normal hours","[0.1, 1.6, 1.5]"
+MAC000841,-2.676,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 2.7% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours from 09:00 to 17:00, which saves you 6.7% of your bill, and the 10% surcharge on peak hours from 06:00 to 09:00 and 17:00 to 22:00, which adds 4.0% to your bill.
+
+The main reason for the reduction is that you use 33% of your electricity during solar hours, which are now cheaper. On the other hand, you use 40% of your electricity during peak hours, which are now more expensive.
+
+To make the most of the new tariff, try to adjust your daily routine to avoid the peak hours of 18:30-19:00, when your electricity usage is at its highest and costs more.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 2.7%
+- Why: the solar-hour discount saves 6.7% of your bill (you use 33% of your electricity in solar hours); the peak-hour surcharge adds 4.0% (you use 40% in peak hours)
+- Your busiest half-hour: 18:30-19:00, in peak hours","[2.7, 6.7, 4.0]"
+MAC002646,-2.329,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 2.3% lower under our new time-of-day tariff. This reduction is mainly due to the savings from the solar-hour discount, which will save you 6.9% of your bill, and the lower cost of electricity during non-peak hours. However, your usage in peak hours will also incur an additional 4.6% surcharge. One practical tip is to consider adjusting your daily routine to avoid the peak hours of 07:30-08:00, when your usage is at its highest.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 2.3%
+- Why: the solar-hour discount saves 6.9% of your bill (you use 35% of your electricity in solar hours); the peak-hour surcharge adds 4.6% (you use 46% in peak hours)
+- Your busiest half-hour: 07:30-08:00, in peak hours","[2.3, 6.9, 4.6]"
+MAC004314,-1.371,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to fall by 1.4% under our new time-of-day tariff. This is mainly due to the savings from the solar-hour discount, which will save you 5.9% of your bill, and the reduction in peak-hour costs, which will add 4.6% to your bill.
+
+The solar-hour discount will save you the most, as you use 30% of your electricity during these hours, which are now 20% cheaper. On the other hand, the peak-hour surcharge will add to your bill, as you use 46% of your electricity during these hours, which are now 10% dearer.
+
+One practical tip is to try to avoid using electricity during your busiest half-hour, which is 19:00-19:30, as this is a peak hour.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 1.4%
+- Why: the solar-hour discount saves 5.9% of your bill (you use 30% of your electricity in solar hours); the peak-hour surcharge adds 4.6% (you use 46% in peak hours)
+- Your busiest half-hour: 19:00-19:30, in peak hours","[1.4, 5.9, 4.6]"
+MAC000475,-2.784,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 2.8% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours from 09:00 to 17:00, which saves you 6.9% of your bill, and the 10% surcharge on peak hours from 06:00 to 09:00 and 17:00 to 22:00, which adds 4.1% to your bill.
+
+The biggest peak hour for you is 18:30-19:00, so try to adjust your usage during this time to avoid the extra cost.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 2.8%
+- Why: the solar-hour discount saves 6.9% of your bill (you use 35% of your electricity in solar hours); the peak-hour surcharge adds 4.1% (you use 41% in peak hours)
+- Your busiest half-hour: 18:30-19:00, in peak hours","[2.8, 6.9, 4.1]"
+MAC001785,-4.528,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 4.5% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours from 09:00 to 17:00, which saves you 8.5% of your bill. However, the peak hours from 06:00 to 09:00 and 17:00 to 22:00 will be 10% more expensive, adding 4.0% to your bill. To make the most of the solar discount, try to avoid using electricity during your busiest half-hour, 16:30-17:00, when it's actually cheaper to do so.
+
+Best regards,
+[Your Name]","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 4.5%
+- Why: the solar-hour discount saves 8.5% of your bill (you use 43% of your electricity in solar hours); the peak-hour surcharge adds 4.0% (you use 40% in peak hours)
+- Your busiest half-hour: 16:30-17:00, in solar hours","[4.5, 8.5, 4.0]"
+MAC003391,-1.029,False,1,False,False,True,False,"Dear Household,
+
+Your electricity bill is expected to fall by 1.0% under our new time-of-day tariff. This is because the solar-hour discount will save you 6.1% of your bill, while the peak-hour surcharge will add 5.1%. This change is due to your usage habits, where you use 30% of your electricity during solar hours and 51% during peak hours. To make the most of the new tariff, try to adjust your evening routine to avoid the 20:00-20:30 peak hour period.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 1.0%
+- Why: the solar-hour discount saves 6.1% of your bill (you use 30% of your electricity in solar hours); the peak-hour surcharge adds 5.1% (you use 51% in peak hours)
+- Your busiest half-hour: 20:00-20:30, in peak hours","[1.0, 6.1, 5.1]"
+MAC000859,-3.798,False,1,False,False,True,False,"Dear Household,
+
+We're pleased to let you know that your electricity bill will be 3.8% lower under our new time-of-day tariff. This reduction is mainly due to the 20% discount on solar hours, which saves you 8.0% of your bill, and the 10% surcharge on peak hours, which adds 4.2% to your bill.
+
+The biggest contributor to this change is your usage of solar hours, which now accounts for 40% of your electricity. On the other hand, your peak hours usage has increased to 42%, resulting in a 10% surcharge. Your busiest half-hour is still 08:30-09:00, which falls within the peak hours.
+
+To make the most of this new tariff, consider adjusting your daily routine to avoid peak hours whenever possible.","- Tariff: solar hours 09:00-17:00 are 20% cheaper; peak hours 06:00-09:00 and 17:00-22:00 are 10% dearer; other hours cost the same as now
+- Your bill if habits stay the same: falls by 3.8%
+- Why: the solar-hour discount saves 8.0% of your bill (you use 40% of your electricity in solar hours); the peak-hour surcharge adds 4.2% (you use 42% in peak hours)
+- Your busiest half-hour: 08:30-09:00, in peak hours","[3.8, 8.0, 4.2]"
