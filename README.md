@@ -51,3 +51,15 @@ Source: [Low Carbon London smart-meter data](https://data.london.gov.uk/dataset/
   measured against flat-rate homes at the same moments (difference-in-differences).
 - At low prices they used 5.9% more (95% range 4.3–7.9%).
 - Implied price elasticity is about −0.03: household demand barely responds to price in the short run.
+
+
+## Findings: J&K's time-of-day tariff on these homes
+
+![ToD bills](reports/figures/tod_bills.png)
+
+- Applied J&K's 2026 ToD tariff (solar hours 09:00–17:00 at −20%; peak hours 06:00–09:00 and 17:00–22:00 at +10%) to 443 homes' real load shapes.
+- With no change in habits, 97% of homes pay less (median −2.7%). The 2.7% that pay more see at most +0.7%, and break even by moving ~2% of their peak-hour use into solar hours.
+- A home pays more only if its peak share is more than double its solar share.
+- Utility revenue falls 2.8%. Revenue-neutral alternatives: +2.9% on all rates, or a 16.7% peak surcharge instead of 10%.
+- With the trial's measured elasticity, peak-hour use falls only 0.3%: the tariff changes bills, not behaviour.
+- Caveat: London load shapes (heating, little AC). The method transfers to India; the numbers don't.

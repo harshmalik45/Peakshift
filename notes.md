@@ -48,3 +48,12 @@ Why compare against normal-price half-hours at the same clock time and month?
 What does "95% range −6.2% to −3.5%" mean, and how did you get it?
 ToU homes used 4% less than Std even at normal prices. Does that break your analysis?
 What can't this prove? Hint: ToU homes volunteered for the trial.
+
+step 9 
+
+81% of homes use more in peak than in solar hours. Why do 97% still pay less?
+Derive the bill-change formula from the three prices. Why does the normal-hours share drop out?
+Where does the 30% in the break-even calculation come from?
+If 97% of homes pay less, who pays? Give two ways to make the tariff revenue-neutral.
+How did you turn Step 8's result into a prediction for J&K, and what does that assume?
+Once homes respond to prices, the median bill falls less. Why?
