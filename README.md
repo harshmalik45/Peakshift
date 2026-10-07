@@ -42,3 +42,12 @@ Source: [Low Carbon London smart-meter data](https://data.london.gov.uk/dataset/
 - The heaviest 10% of homes use 25.5% of evening-peak electricity.
 
 ![Who drives the evening peak](reports/figures/peak_drivers.png)
+
+## Findings: did price signals change behaviour?
+
+![Price response](reports/figures/price_response.png)
+
+- At high prices (5.7× normal), time-of-use homes used 5.0% less than usual (95% range 3.5–6.2%),
+  measured against flat-rate homes at the same moments (difference-in-differences).
+- At low prices they used 5.9% more (95% range 4.3–7.9%).
+- Implied price elasticity is about −0.03: household demand barely responds to price in the short run.

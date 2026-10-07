@@ -38,3 +38,13 @@ The mean daily use is 10.1 kWh but the median is 8.4. Which do you report, and w
 How did you find the top 10% of homes' share of evening energy in SQL?
 What is a load factor, and what does 0.09 tell a power company?
 What is diversity, and why does it matter when sizing a transformer?
+
+
+step 8 
+
+Why do you need the flat-rate homes at all?
+Explain difference-in-differences in one sentence.
+Why compare against normal-price half-hours at the same clock time and month?
+What does "95% range −6.2% to −3.5%" mean, and how did you get it?
+ToU homes used 4% less than Std even at normal prices. Does that break your analysis?
+What can't this prove? Hint: ToU homes volunteered for the trial.
