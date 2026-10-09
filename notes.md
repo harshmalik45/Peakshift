@@ -66,3 +66,12 @@ v1 passed all 30 checks, but one note was wrong. What was wrong, and how did you
 Check 2 never fired in v2. Was it pointless?
 Why run a local model with Ollama instead of calling an API? What do you give up?
 A note takes 13 seconds. How would you write notes for 10 lakh consumers?
+
+step 11 
+
+Why doesn't the app read the Parquet files directly?
+Streamlit reruns the whole script on every click. What does @st.cache_data do about that?
+How does the tariff designer compute the surcharge for no revenue loss?
+Why build file paths from __file__?
+What did .gitignore almost break, and how did you check it?
+The free app sleeps after 12 hours. How would you host it for real users?mv "$(ls -t ~/Desktop/Screenshot*.png | head -1)" reports/figures/dashboard.png

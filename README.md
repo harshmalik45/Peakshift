@@ -1,6 +1,15 @@
 # PeakShift: Do time-of-day prices change how homes use electricity?
 ## Data
 
+**Live dashboard:** [peakshift.streamlit.app](https://peakshift.streamlit.app/)
+(free hosting sleeps after 12 hours without visitors: click "Yes, get this app back up!" and wait about 30 seconds)
+
+![PeakShift dashboard](reports/figures/dashboard.png)
+
+The dashboard reads only the pipeline's saved outputs, so every number on it comes from the analysis.
+Its tariff designer lets you move J&K's solar discount and peak surcharge and see, for all 443 homes,
+who pays more, the utility's revenue change and the surcharge needed for no revenue loss.
+
 Source: [Low Carbon London smart-meter data](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)
 (UK Power Networks, London Datastore, CC BY 4.0). 168 CSV files of 1M rows each
 (~167M rows, 8.5 GB). One row = one home's electricity use in one half-hour, Nov 2011 – Feb 2014.
