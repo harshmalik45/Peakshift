@@ -1,0 +1,4 @@
+stage,readings,homes
+Raw sample (Step 3),8394487,500
+After cleaning rules (Step 5),7902768,452
+After AI-assisted fault removal (Step 6),7730496,443
